@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.gk.test.BaseSetUp"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.saucedemo.com/"/>
+    <classes>
+      <class name="com.gk.test.SampleTests">
+        <methods>
+          <include name="checkTotal"/>
+          <include name="testProperty"/>
+          <include name="readUrl"/>
+          <include name="closeSession"/>
+          <include name="setUp"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- com.gk.test.SampleTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
