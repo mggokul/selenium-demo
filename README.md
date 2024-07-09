@@ -1,4 +1,4 @@
-Simple Selenium suite in java using TestNG
+Simple Selenium suite in java using TestNG.<br>
 Page object Model is followed
 Assertions are done using TestNG
 Screenshot is captured and stored on test fail
